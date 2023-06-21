@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed';
+    color: #151729;
+}
+
+.header {
+    background-color: #151729;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 5vw;
+    font-family: 'Kablammo';
+    letter-spacing: 6px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image_left {
+    width: 50%;
+}
+
+.image_left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.wrapper_right {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #151729;
+    border-radius: 8px;
+}
+
+.button_right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button_right button {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    transition: all 0.2s;
+    text-transform: capitalize;
+}
+
+.button_right button:hover {
+    scale: 1.1;
+}
+
+.button_right button:active {
+    scale: 0.9;
+}
+
+.number_information {
+    width: 100%;
+    text-align: center;
+}
+
+.number_information p {
+    color: white;
+    text-transform: capitalize;
+}
+
+.number_information span {
+    color: orange;
+}
+
+@media screen and (width < 670px) {
+
+    .image_left {
+        width: 80%;
+    }
+
+    .wrapper_right {
+        width: 80%;
+    }
+
+    .number_information,
+    .button_right {
+        margin: 10px;
+    }
+
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+}
+
+.footer a {
+    color: orange;
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate clicker</title>
+    <link rel="icon" href="pirate.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Pirate Clicker</h1>
+    </div>
+    <div class="container">
+        <div class="image_left">
+            <img src="or.jpg" alt="img-piece-or">
+        </div>
+        <div class="wrapper_right">
+            <div class="button_right">
+                <button id="buy" onclick="buyor()">fabriquer or</button>
+                <button disabled="true" id="four" onclick="add_four()">acheter four 10 ors</button>
+                <button disabled="true" id="megafour" onclick="add_megafour()">acheter mega four 20 ors</button>
+            </div>
+            <div class="number_information">
+                <p>J'ai <span id="to-incrr">0</span> ors</p>
+                <p>J'ai <span id="four-four">1</span> four</p>
+                <p>J'ai <span id="four-four-mega">0</span> mega four</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Follow Me On Github <span><a href="https://github.com/ImMaxence" target="_blank">@ImMaxence</a></span></h1>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
